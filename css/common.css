@@ -12,3 +12,23 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+#categories{
+  padding: 24px;
+  list-style-type: none;
+  display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+  max-width: 1128px;
+}
+.gallery img {
+  width: calc(30.333%);
+  height: auto;
+}
